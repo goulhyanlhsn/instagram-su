@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تغيير كلمة السر</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            max-width: 90%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container h1 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .container label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .container input:focus {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+        .container .checkbox {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .container .checkbox input {
+            margin-left: 10px;
+        }
+
+        .container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .container button:hover {
+            background-color: #0056b3;
+        }
+
+        .container p {
+            font-size: 12px;
+            color: #555;
+            text-align: right;
+        }
+
+        .container p a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .container p a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                font-size: 14px;
+ .img-h {
+    width: 100px;
+    height: 100px;
+    margin-top: 14px;
+    margin-right: 104px;
+    border-radius: 51px;
+  }
+            }
+
+            .container h1 {
+                font-size: 18px;
+            }
+
+            .container button {
+                font-size: 14px;
+                padding: 8px;
+            }
+
+            .container input {
+                padding: 8px;
+            }
+             
+        } 
+           .img-h{
+            width: 100px;
+            height: 100px;
+            margin-top: 73px;
+            margin-right: 132px;
+             border-radius: 51px;
+}
+   h4{
+    text-align: center;
+   }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <img class="img-h" src="h.png" alt="">
+        <h4>ⵀⵓⵧⴷⵇ🦋💙🌀ⵣ </h4>  
+        <h1>تغيير كلمة السر</h1>
+        <form>
+            <label for="current-password">كلمة السر الحالية (تم التحديث في 2024/07/21)</label>
+            <input type="password" id="current-password" placeholder="أدخل كلمة السر الحالية">
+
+            <label for="new-password">كلمة السر الجديدة</label>
+            <input type="password" id="new-password" placeholder="أدخل كلمة السر الجديدة">
+
+            <label for="confirm-password">إعادة كتابة كلمة السر الجديدة</label>
+            <input type="password" id="confirm-password" placeholder="أعد كتابة كلمة السر الجديدة">
+
+            <div class="checkbox">
+                <label for="logout-devices">يجب تسجيل الخروج من الأجهزة الأخرى</label>
+                <input type="checkbox" id="logout-devices">
+            </div>
+
+            <button type="submit">تغيير كلمة السر</button>
+        </form>
+
+        <p>هل نسيت كلمة السر؟ <a href="#">اضغط هنا</a></p>
+    </div>
+</body>
+</html>
